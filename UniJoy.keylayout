@@ -44,7 +44,7 @@
             <key code="4" output="ব"/>
             <key code="5" action="্"/>
             <key code="6" output="্র"/>
-            <key code="7" action="ো"/>
+            <key code="7" action="ো"/>
             <key code="8" action="ে"/>
             <key code="9" output="র"/>
             <key code="10" output=""/> <!-- Null -->
@@ -156,7 +156,7 @@
             <key code="4" output="ভ"/>
             <key code="5" output="।"/>
             <key code="6" output="‍্য"/>
-            <key code="7" action="ৌ"/>
+            <key code="7" action="ৌ"/>
             <key code="8" action="ৈ"/>
             <key code="9" output="ল"/>
             <key code="10" output=""/> <!-- Null -->
@@ -741,8 +741,8 @@
             <when state="none" output="ে"/>
             <when state="্" output="এ"/>
         </action>
-        <action id="ো">
-            <when state="none" output="ো"/>
+        <action id="ো">
+            <when state="none" output="ো"/>
             <when state="্" output="ও"/>
         </action>
         <action id="ৌ">
