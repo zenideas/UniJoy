@@ -1,9 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Created by Ghazi Asif Salahuddin on 2024-01-3 at 12:11 am (BDT)-->
-<!--Last edited on 2004-10-22 at 15:01 (BDT)-->
-<!--Last edited by Ukelele version 359 on 2024-09-23 at 18:19 (GMT+6)-->
-<!--Created by Ukelele version 1.6.1 on 2006-04-11 at 07:48 (BDT)-->
+<!--Created by Ghazi Asif Salahuddin on 2024-01-03 at 12:11 am (BDT)-->
+<!--Last edited by Ukelele version 359 on 2026-10-05 at 18:30 (GMT+6)-->
 <!--This keyboard layout is licensed under GNU Lesser General Public License version 2.1 or later-->
 <keyboard group="126" id="-19574" name="Unijoy" maxout="3">
     <layouts>
@@ -49,7 +47,7 @@
             <key code="7" action="ো"/>
             <key code="8" action="ে"/>
             <key code="9" output="র"/>
-            <key code="10" output=""/>
+            <key code="10" output=""/> <!-- Null -->
             <key code="11" output="ন"/>
             <key code="12" output="ং"/>
             <key code="13" output="য"/>
@@ -75,7 +73,7 @@
             <key code="33" output="["/>
             <key code="34" output="হ"/>
             <key code="35" output="ড়"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="দ"/>
             <key code="38" output="ক"/>
             <key code="39" output="&#x0027;"/>
@@ -87,26 +85,26 @@
             <key code="45" output="স"/>
             <key code="46" output="ম"/>
             <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" output="‍"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
+            <key code="49" output=" "/> <!-- Space -->
+            <key code="50" output="‍"/> <!-- Zero Width Joiner (ZWJ) -->
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
+            <key code="52" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="53" output="&#x001B;"/> <!-- Escape -->
+            <key code="64" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
             <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
+            <key code="70" output="&#x001C;"/> <!-- File Separator -->
+            <key code="71" output="&#x001B;"/> <!-- Escape -->
+            <key code="72" output="&#x001F;"/> <!-- Unit Separator -->
             <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="77" output="&#x001E;"/> <!-- Record Separator -->
             <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="80" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -118,37 +116,37 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
+            <key code="97" output="&#x0010;"/> <!-- F6 -->
+            <key code="98" output="&#x0010;"/> <!-- F7 -->
+            <key code="99" output="&#x0010;"/> <!-- F3 -->
+            <key code="100" output="&#x0010;"/> <!-- F8 -->
+            <key code="101" output="&#x0010;"/> <!-- F9 -->
+            <key code="102" output="&#x0010;"/> <!-- F11 -->
+            <key code="103" output="&#x0010;"/> <!-- F13 -->
+            <key code="104" output="&#x0010;"/> <!-- F14 -->
+            <key code="105" output="&#x0010;"/> <!-- F10 -->
+            <key code="106" output="&#x0010;"/> <!-- F12 -->
+            <key code="107" output="&#x0010;"/> <!-- F15 -->
+            <key code="108" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="109" output="&#x0010;"/> <!-- F17 -->
+            <key code="110" output="&#x0010;"/> <!-- F18 -->
+            <key code="111" output="&#x0010;"/> <!-- F19 -->
+            <key code="112" output="&#x0010;"/> <!-- F20 -->
+            <key code="113" output="&#x0010;"/> <!-- F16 -->
+            <key code="114" output="&#x0005;"/> <!-- Help -->
+            <key code="115" output="&#x0001;"/> <!-- Home -->
+            <key code="116" output="&#x000B;"/> <!-- Page Up -->
+            <key code="117" output="&#x007F;"/> <!-- Forward Delete -->
+            <key code="118" output="&#x0010;"/> <!-- F4 -->
+            <key code="119" output="&#x0004;"/> <!-- End -->
+            <key code="120" output="&#x0010;"/> <!-- F2 -->
+            <key code="121" output="&#x000C;"/> <!-- Page Down -->
+            <key code="122" output="&#x0010;"/> <!-- F1 -->
+            <key code="123" output="&#x001C;"/> <!-- Left Arrow -->
+            <key code="124" output="&#x001D;"/> <!-- Right Arrow -->
+            <key code="125" output="&#x001F;"/> <!-- Down Arrow -->
+            <key code="126" output="&#x001E;"/> <!-- Up Arrow -->
         </keyMap>
         <keyMap index="1">
             <key code="0" output="র্"/>
@@ -161,7 +159,7 @@
             <key code="7" action="ৌ"/>
             <key code="8" action="ৈ"/>
             <key code="9" output="ল"/>
-            <key code="10" output=""/>
+            <key code="10" output=""/> <!-- Null -->
             <key code="11" output="ণ"/>
             <key code="12" output="ঙ"/>
             <key code="13" output="য়"/>
@@ -187,38 +185,35 @@
             <key code="33" output="{"/>
             <key code="34" output="ঞ"/>
             <key code="35" output="ঢ়"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="ধ"/>
             <key code="38" output="খ"/>
             <key code="39" output="&#x0022;"/>
             <key code="40" output="থ"/>
             <key code="41" output=":"/>
             <key code="42" output="ৱ"/>
-            <key code="43" output="&#x003C;"/>
+            <key code="43" output="&lt;"/>
             <key code="44" output="?"/>
             <key code="45" output="ষ"/>
             <key code="46" output="শ"/>
-            <key code="47" output="&#x003E;"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" output="‌"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="47" output="&gt;"/>
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
+            <key code="49" output=" "/> <!-- Space -->
+            <key code="50" output="‌"/> <!-- Zero Width Non-Joiner (ZWNJ) -->
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
+            <key code="64" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
             <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
+            <key code="70" output="&#x001C;"/> <!-- File Separator -->
+            <key code="72" output="&#x001F;"/> <!-- Unit Separator -->
             <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="77" output="&#x001E;"/> <!-- Record Separator -->
             <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="80" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -230,37 +225,8 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
+            <key code="126" output="&#x001E;"/> <!-- Up Arrow -->
         </keyMap>
         <keyMap index="2">
             <key code="0" output="a"/>
@@ -298,7 +264,7 @@
             <key code="33" output="["/>
             <key code="34" output="i"/>
             <key code="35" output="p"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="l"/>
             <key code="38" output="j"/>
             <key code="39" output="&#x0027;"/>
@@ -310,26 +276,26 @@
             <key code="45" output="n"/>
             <key code="46" output="m"/>
             <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
+            <key code="49" output=" "/> <!-- Space -->
             <key code="50" output="`"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
+            <key code="52" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="53" output="&#x001B;"/> <!-- Escape -->
+            <key code="64" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
             <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
+            <key code="70" output="&#x001C;"/> <!-- File Separator -->
+            <key code="71" output="&#x001B;"/> <!-- Escape -->
+            <key code="72" output="&#x001F;"/> <!-- Unit Separator -->
             <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="77" output="&#x001E;"/> <!-- Record Separator -->
             <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="80" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -341,37 +307,7 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
         </keyMap>
         <keyMap index="3">
             <key code="0" output="a"/>
@@ -384,7 +320,7 @@
             <key code="7" output="x"/>
             <key code="8" output="c"/>
             <key code="9" output="v"/>
-            <key code="10" output=""/>
+            <key code="10" output=""/> <!-- Null -->
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" output="w"/>
@@ -410,7 +346,7 @@
             <key code="33" output="["/>
             <key code="34" output="i"/>
             <key code="35" output="p"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="l"/>
             <key code="38" output="j"/>
             <key code="39" output="&#x0027;"/>
@@ -422,26 +358,22 @@
             <key code="45" output="n"/>
             <key code="46" output="m"/>
             <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
+            <key code="49" output=" "/> <!-- Space -->
             <key code="50" output="`"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
+            <key code="64" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
+            <key code="69" output="+"/> <!-- Numpad Plus -->
+            <key code="72" output="&#x001F;"/> <!-- Unit Separator -->
             <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="77" output="&#x001E;"/> <!-- Record Separator -->
             <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="80" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -453,37 +385,7 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
         </keyMap>
         <keyMap index="4">
             <key code="0" output="ৄ"/>
@@ -492,11 +394,11 @@
             <key code="3" output="ৢ"/>
             <key code="4" output="ঌ"/>
             <key code="5" output="ৣ"/>
-            <key code="6" output="z"/>
-            <key code="7" output="ৗ"/>
+            <key code="6" output="॒"/> <!-- Vedic Anudatta Accent -->
+            <key code="7" output="॑"/> <!-- Vedic Udatta Accent -->
             <key code="8" output="c"/>
             <key code="9" output="v"/>
-            <key code="10" output=""/>
+            <key code="10" output=""/> <!-- Null -->
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" output="w"/>
@@ -510,50 +412,48 @@
             <key code="21" output="৷"/>
             <key code="22" output="৹"/>
             <key code="23" output="৸"/>
-            <key code="24" output="="/>
-            <key code="25" output="9"/>
+            <key code="24" output="≠"/> <!-- Not Equal To (U+2260) -->
+            <key code="25" output="“"/> <!-- Left Double Curly Quote (U+201C) via Option+9 -->
             <key code="26" output="৺"/>
-            <key code="27" output="—"/>
+            <key code="27" output="–"/> <!-- En Dash -->
             <key code="28" output="৻"/>
-            <key code="29" output="0"/>
-            <key code="30" output="’"/>
+            <key code="29" output="”"/> <!-- Right Double Curly Quote (U+201D) via Option+0 -->
+            <key code="30" output="’"/> <!-- Right Single Curly Quote (U+2019) -->
             <key code="31" output="o"/>
             <key code="32" output="u"/>
-            <key code="33" output="‘"/>
+            <key code="33" output="‘"/> <!-- Left Single Curly Quote (U+2018) -->
             <key code="34" output="i"/>
             <key code="35" output="p"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="l"/>
-            <key code="38" output="ঀ"/>
+            <key code="38" output="ঀ"/> <!-- Bengali Anji / Vedic Symbol -->
             <key code="39" output="&#x0027;"/>
-            <key code="40" output="ঽ"/>
+            <key code="40" output="ঽ"/> <!-- Avagraha -->
             <key code="41" output=";"/>
-            <key code="42" output="॥"/>
-            <key code="43" output=","/>
+            <key code="42" output="॥"/> <!-- Double Danda -->
+            <key code="43" output="…"/> <!-- Ellipsis (U+2026) -->
             <key code="44" output="/"/>
             <key code="45" output="n"/>
             <key code="46" output="m"/>
-            <key code="47" output="়"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" output="​"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="‍"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="47" output="়"/> <!-- Nukta (U+09BC) restored on Option + . -->
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
+            <key code="49" output=" "/> <!-- Space -->
+            <key code="50" output="​"/> <!-- Zero Width Space (ZWSP) -->
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
+            <key code="52" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="53" output="&#x001B;"/> <!-- Escape -->
+            <key code="64" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
+            <key code="69" output="+"/> <!-- Numpad Plus -->
+            <key code="72" output="&#x001F;"/> <!-- Unit Separator -->
             <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="77" output="&#x001E;"/> <!-- Record Separator -->
             <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="80" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -565,32 +465,7 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
             <key code="122" output="&#x0010;"/>
             <key code="123" output="&#x001C;"/>
             <key code="124" output="&#x001D;"/>
@@ -606,66 +481,66 @@
             <key code="5" output="G"/>
             <key code="6" output="Z"/>
             <key code="7" output="X"/>
-            <key code="8" output="C"/>
-            <key code="9" output="V"/>
-            <key code="10" output=""/>
+            <key code="8" output="©"/> <!-- Copyright Sign (U+00A9) -->
+            <key code="9" output="ৼ"/> <!-- Bengali Letter Vedic Anusvara (U+09FC) -->
+            <key code="10" output=""/> <!-- Null -->
             <key code="11" output="B"/>
             <key code="12" output="Q"/>
             <key code="13" output="W"/>
-            <key code="14" output="E"/>
-            <key code="15" output="R"/>
+            <key code="14" output="€"/> <!-- Euro Sign (U+20AC) -->
+            <key code="15" output="₹"/> <!-- Indian Rupee Sign (U+20B9) -->
             <key code="16" output="Y"/>
-            <key code="17" output="T"/>
+            <key code="17" output="™"/> <!-- Trademark Sign (U+2122) -->
             <key code="18" output="!"/>
             <key code="19" output="@"/>
             <key code="20" output="#"/>
             <key code="21" output="$"/>
-            <key code="22" output="^"/>
-            <key code="23" output="%"/>
+            <key code="22" output="^"/> <!-- Combining Circumflex Accent / Vedic Accent -->
+            <key code="23" output="%"/> <!-- Percent Sign (U+0025) -->
             <key code="24" output="+"/>
             <key code="25" output="("/>
-            <key code="26" output="&#x0026;"/>
-            <key code="27" output="_"/>
-            <key code="28" output="*"/>
+            <key code="26" output="&amp;"/>
+            <key code="27" output="৾"/> <!-- Bengali Sandhi Mark (U+09FE) -->
+            <key code="28" output="×"/>
             <key code="29" output=")"/>
-            <key code="30" output="}"/>
+            <key code="30" output="❞"/> <!-- Heavy Double Comma Quotation Mark -->
             <key code="31" output="O"/>
             <key code="32" output="U"/>
-            <key code="33" output="{"/>
+            <key code="33" output="❝"/> <!-- Heavy Double Turned Comma Quotation Mark -->
             <key code="34" output="I"/>
             <key code="35" output="P"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="L"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
+            <key code="37" output="£"/> <!-- Pound Sign (U+00A3) -->
             <key code="38" output="J"/>
             <key code="39" output="&#x0022;"/>
             <key code="40" output="K"/>
             <key code="41" output=":"/>
             <key code="42" output="|"/>
-            <key code="43" output="“"/>
-            <key code="44" output="?"/>
+            <key code="43" output="“"/> <!-- Left Double Curly Quote (U+201C) via Shift+Option+< -->
+            <key code="44" output="৽"/> <!-- Bengali Abbreviation Sign (U+09FD) via Shift+Option+? -->
             <key code="45" output="N"/>
             <key code="46" output="M"/>
-            <key code="47" output="”"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="47" output="”"/> <!-- Right Double Curly Quote (U+201D) via Shift+Option+> -->
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
+            <key code="49" output="&#x00A0;"/> <!-- Non-Breaking Space (NBSP / U+00A0) -->
             <key code="50" output="~"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="‌"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
+            <key code="52" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="53" output="‌"/> <!-- Zero Width Non-Joiner (ZWNJ) -->
+            <key code="64" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="65" output="."/>
-            <key code="66" output="*"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="+"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="="/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="/"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="66" output="*"/> <!-- Numpad Multiply -->
+            <key code="67" output="*"/> <!-- Numpad Multiply -->
+            <key code="69" output="+"/> <!-- Numpad Plus -->
+            <key code="70" output="+"/> <!-- Numpad Plus -->
+            <key code="71" output="&#x001B;"/> <!-- Escape -->
+            <key code="72" output="="/> <!-- Numpad Equals -->
+            <key code="75" output="/"/> <!-- Numpad Divide -->
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
+            <key code="77" output="/"/> <!-- Numpad Divide -->
+            <key code="78" output="-"/> <!-- Numpad Minus -->
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="80" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -677,37 +552,34 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
+            <key code="97" output="&#x0010;"/> <!-- F6 -->
+            <key code="98" output="&#x0010;"/> <!-- F7 -->
+            <key code="99" output="&#x0010;"/> <!-- F3 -->
+            <key code="100" output="&#x0010;"/> <!-- F8 -->
+            <key code="101" output="&#x0010;"/> <!-- F9 -->
+            <key code="102" output="&#x0010;"/> <!-- F11 -->
+            <key code="103" output="&#x0010;"/> <!-- F13 -->
+            <key code="104" output="&#x0010;"/> <!-- F14 -->
+            <key code="105" output="&#x0010;"/> <!-- F10 -->
+            <key code="106" output="&#x0010;"/> <!-- F12 -->
+            <key code="107" output="&#x0010;"/> <!-- F15 -->
+            <key code="108" output="&#x0010;"/> <!-- Data Link Escape -->
+            <key code="109" output="&#x0010;"/> <!-- F17 -->
+            <key code="110" output="&#x0010;"/> <!-- F18 -->
+            <key code="111" output="&#x0010;"/> <!-- F19 -->
+            <key code="112" output="&#x0010;"/> <!-- F20 -->
+            <key code="113" output="&#x0010;"/> <!-- F16 -->
+            <key code="114" output="&#x0005;"/> <!-- Help -->
+            <key code="115" output="&#x0001;"/> <!-- Home -->
+            <key code="116" output="&#x000B;"/> <!-- Page Up -->
+            <key code="117" output="&#x007F;"/> <!-- Forward Delete -->
+            <key code="118" output="&#x0010;"/> <!-- F4 -->
+            <key code="119" output="&#x0004;"/> <!-- End -->
+            <key code="120" output="&#x0010;"/> <!-- F2 -->
+            <key code="121" output="&#x000C;"/> <!-- Page Down -->
+            <key code="122" output="&#x0010;"/> <!-- F1 -->
+            <key code="126" output="&#x001E;"/> <!-- Up Arrow -->
         </keyMap>
         <keyMap index="6">
             <key code="0" output="&#x0001;"/>
@@ -720,7 +592,7 @@
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
             <key code="9" output="&#x0016;"/>
-            <key code="10" output="0"/>
+            <key code="10" output=""/> <!-- Null -->
             <key code="11" output="&#x0002;"/>
             <key code="12" output="&#x0011;"/>
             <key code="13" output="&#x0017;"/>
@@ -740,13 +612,13 @@
             <key code="27" output="&#x001F;"/>
             <key code="28" output="8"/>
             <key code="29" output="0"/>
-            <key code="30" output="❞"/>
+            <key code="30" output="]"/>
             <key code="31" output="&#x000F;"/>
             <key code="32" output="&#x0015;"/>
-            <key code="33" output="❝"/>
+            <key code="33" output="["/>
             <key code="34" output="&#x0009;"/>
             <key code="35" output="&#x0010;"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="&#x000C;"/>
             <key code="38" output="&#x000A;"/>
             <key code="39" output="&#x0027;"/>
@@ -758,26 +630,19 @@
             <key code="45" output="&#x000E;"/>
             <key code="46" output="&#x000D;"/>
             <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
             <key code="50" output="`"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
             <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
+            <key code="70" output="&#x001C;"/> <!-- File Separator -->
+            <key code="72" output="&#x001F;"/> <!-- Unit Separator -->
             <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
+            <key code="76" output="&#x0003;"/> <!-- Enter / Numpad Enter -->
             <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
+            <key code="79" output="&#x0010;"/> <!-- Data Link Escape -->
             <key code="81" output="="/>
             <key code="82" output="0"/>
             <key code="83" output="1"/>
@@ -789,37 +654,7 @@
             <key code="89" output="7"/>
             <key code="91" output="8"/>
             <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="96" output="&#x0010;"/> <!-- F5 -->
         </keyMap>
         <keyMap index="7">
             <key code="0" output="A"/>
@@ -847,7 +682,7 @@
             <key code="23" output="%"/>
             <key code="24" output="+"/>
             <key code="25" output="("/>
-            <key code="26" output="&#x0026;"/>
+            <key code="26" output="&amp;"/>
             <key code="27" output="_"/>
             <key code="28" output="*"/>
             <key code="29" output=")"/>
@@ -857,75 +692,24 @@
             <key code="33" output="{"/>
             <key code="34" output="I"/>
             <key code="35" output="P"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="&#x000D;"/> <!-- Return -->
             <key code="37" output="L"/>
             <key code="38" output="J"/>
-            <key code="39" output="&#x0022;"/>
+            <key code="39" output="&#x0027;"/>
             <key code="40" output="K"/>
-            <key code="41" output=":"/>
+            <key code="41" output=";"/>
             <key code="42" output="|"/>
-            <key code="43" output="&#x003C;"/>
+            <key code="43" output="&lt;"/>
             <key code="44" output="?"/>
             <key code="45" output="N"/>
             <key code="46" output="M"/>
-            <key code="47" output="&#x003E;"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
+            <key code="47" output="&gt;"/>
+            <key code="48" output="&#x0009;"/> <!-- Tab -->
             <key code="50" output="~"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
+            <key code="51" output="&#x0008;"/> <!-- Backspace -->
             <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
+            <key code="66" output="&#x001D;"/> <!-- Group Separator -->
             <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output=""/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
         </keyMap>
     </keyMapSet>
     <actions>
