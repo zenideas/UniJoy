@@ -745,8 +745,8 @@
             <when state="none" output="ো"/>
             <when state="্" output="ও"/>
         </action>
-        <action id="ৌ">
-            <when state="none" output="ৌ"/>
+        <action id="ৌ">
+            <when state="none" output="ৌ"/>
             <when state="্" output="ঔ"/>
         </action>
         <action id="ৈ">
